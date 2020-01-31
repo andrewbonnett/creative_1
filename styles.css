@@ -1,0 +1,37 @@
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link.hover {
+    color: rgb(0, 0, 0);
+  }
+  
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 15px;
+}
+
+.bg-primary {
+    background-color: rgb(255, 255, 255)!important;
+    backdrop-filter: blur(0.8);
+}
+
+li:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+body {
+    background: url("https://farm9.staticflickr.com/8637/16085532035_f4e675b0ef_b.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.foreground {
+    backdrop-filter: blur(4 px);
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
