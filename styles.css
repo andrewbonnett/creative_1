@@ -1,25 +1,51 @@
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link.hover {
     color: rgb(0, 0, 0);
   }
-  
+
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-family: Verdana, Geneva, sans-serif;
-    padding: 15px;
+    padding-right: 36px;
+    padding-left: 36px;
 }
 
 .bg-primary {
     background-color: rgb(255, 255, 255)!important;
     backdrop-filter: blur(0.8);
+    border-bottom: solid .5px #E6E6E6
 }
 
 li:hover {
     background-color: rgb(184, 184, 184);
 }
 
+.navbar-nav {
+   float: left;
+   margin: 0;
+   margin-left: 34%;
+}
+
+.navbar-nav.navbar-right:last-child {
+   margin-right: -15px;
+   margin-left: 0;
+}
+
+.logo-container {
+    padding-top: 10px;
+    padding-bottom: 10px!important;
+    background-color: white;
+    width:100%;
+}
+
+#logo img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 body {
-    background: url("https://farm9.staticflickr.com/8637/16085532035_f4e675b0ef_b.jpg") no-repeat center center fixed; 
+    background: url("https://farm9.staticflickr.com/8637/16085532035_f4e675b0ef_b.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
