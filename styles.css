@@ -55,8 +55,6 @@ li:hover {
     text-align: center;
 }
 
-/* ---------------Christian's changes--------------------------------------------------------------------------- */
-
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -122,9 +120,25 @@ ul {
     height: 100%!important;
 }
 
-/* ---------------Drew's changes--------------------------------------------------------------------------- */
+.about-container {
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    backdrop-filter: blur( px);
+    background-color: rgba(255, 255, 255, 0.712);
+}
 
-#about body {
+.about-text {
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about {
     background: url("https://farm9.staticflickr.com/8637/16085532035_f4e675b0ef_b.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -171,20 +185,31 @@ ul {
 
   .container2 {
       width: auto;
-      max-width: 680px;
       padding: 0 15px;
   }
 
   .cart-heading {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     color: black;
     font-family:"Arial Black", Gadget, sans-serif;
   }
 
   .cart-page-container {
+    margin: auto;
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 85px;
     background-color: white;
-    width:80%;
+    width:65%;
+  }
+
+  .cart-text {
+    margin: auto;
+    font-size: 24px;
+  }
+
+  .cart-text-2 {
+    font-size: 24px;
+    text-align: right;
+    margin: auto;
   }
