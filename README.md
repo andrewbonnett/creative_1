@@ -4,4 +4,4 @@ Collaborated with a friend to build a basic website using HTML and CSS, subseque
 
 Uses bootstrap toolkit for design layout.
 
-Running on DigitalOcean server and accessible at http://creative1.andrewbonnett.me
+Running on DigitalOcean server: http://creative1.andrewbonnett.me
